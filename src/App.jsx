@@ -8,9 +8,11 @@ const App = () => {
     setColor('bg-red-500')
     setTimeout(() => {
       setColor2('bg-yellow-500')
+      setColor('')
     }, 5000)
     setTimeout(() => {
       setColor3('bg-green-500')
+      setColor2('')
     }, 10000)
   }
   return (
